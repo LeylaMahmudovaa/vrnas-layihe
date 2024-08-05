@@ -1,0 +1,79 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2 {
+    width: 540px;
+    height: 166px;
+    font-family: Chakra Petch;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 83.2px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin: 6vh  0 0 0;
+}
+
+
+
+.text p {
+    width: 446px;
+    height: 56px;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin: 3vh 0;
+    color: #D1D1D1;
+
+}
+
+
+
+.client {
+    display: flex;
+    width: 100%;
+
+    margin: 5vh 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.client img:first-child {
+    width: 277.34px;
+    height: 50.45px;
+    top: 598px;
+    left: 122px;
+}
+
+.client img:last-child {
+    width: 196px;
+    height: 127.94px;
+    top: 559px;
+    left: 474px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+
+.container>img {
+    width: 526px;
+    height: 626px;
+    top: 127px;
+    left: 795px;
+    gap: 0px;
+    opacity: 0px;
+
+}

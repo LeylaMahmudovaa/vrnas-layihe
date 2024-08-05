@@ -1,0 +1,112 @@
+.container {
+    width: 80%;
+    height: 644.94px;
+    display: flex;
+    margin: 30vh auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .image {
+    position: relative;
+    width: 50%;
+    height: 90%;
+}
+
+.image img {
+    position: absolute;
+
+
+}
+
+.mainIMG {
+    bottom: 0;
+    z-index: 2;
+    width: 517.98px;
+    height: 622px;
+}
+
+.rectangelPNG {
+    bottom: 3vh;
+    width: 398.94px;
+    height: 496.53px;
+
+}
+
+.videoPNG {
+    width: 196px;
+    height: 127.94px;
+    right: 15vh;
+    bottom: 0;
+    z-index: 3;
+}
+
+.text {
+    width: 562px;
+    height: 549px;
+    display: flex;
+    margin-right: 5vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text ul {
+    margin-bottom: 5vh;
+}
+
+
+.text h5 {
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.14em;
+    height: 21px;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+}
+
+.text h3 {
+    width: 562px;
+    height: 174px;
+    font-family: Chakra Petch;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+
+}
+
+
+.text p {
+    width: 528px;
+    height: 112px;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #D1D1D1;
+    margin: 2vh 0;
+}
+
+
+.text li {
+    color: #FFFFFF;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 4vh ;
+    position: relative;
+}
+
+.text li::after {
+    content: url(../../../assets/aboutUS/icon/check-box.svg);
+    left: -25px;
+    position: absolute;
+}

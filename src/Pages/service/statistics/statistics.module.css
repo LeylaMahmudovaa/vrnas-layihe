@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 0;
+    margin: 20vh auto;
+}
+
+
+.boxs {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.statistic p {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+    background: var(--Main-Colors-Linear, linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.statistic h2 {
+    color: #fff;
+    font-family: "Chakra Petch";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+
+}

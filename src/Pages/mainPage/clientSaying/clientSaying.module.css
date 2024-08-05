@@ -1,0 +1,152 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.BG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20vh auto;
+    width: 1247px;
+    height: 1247px;
+}
+
+.text p {
+    width: 121px;
+    height: 21px;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0.14em;
+    text-align: left;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text h2 {
+    width: 628px;
+    height: 58px;
+    font-family: Chakra Petch;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    top: 350px;
+}
+
+.avatars {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 900px;
+    z-index: 1;
+}
+
+.avatar {
+    position: relative;
+    display: flex;
+
+}
+
+.avatar img {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.avatar:nth-child(2) {
+    top: 370px;
+}
+
+.avatar:nth-child(3) {
+    top: 265px;
+    left: 120px;
+}
+
+.avatar:nth-child(4) {
+    bottom: 360px;
+}
+
+.avatar:nth-child(5) {
+    left: 75px;
+}
+
+.avatar:nth-child(6) {
+    top: 475px;
+    right: 235px;
+}
+
+
+.avatarAbout {
+    opacity:0 ; 
+    background: #252532C4;
+    padding: 3vh;
+    position: absolute; 
+    left: 30px;
+    bottom: -140px; 
+    border-radius: 0 20px;
+    width: max-content;
+    transition: opacity 0.3s ease; /* opacity geçişi */
+}
+
+.active {
+    opacity: 1 !important;
+
+}
+
+
+
+.avatar p {
+    width: 255px;
+    height: 60px;
+    font-family: Chakra Petch;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #D1D1D1;
+
+}
+
+.avatar h2 {
+    width: 131px;
+    height: 24px;
+    font-family: Chakra Petch;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.avatar h2 span {
+    color: #D1D1D1;
+}
+
+.avatar hr {
+    border: 0; /* Varsayılan border'ı kaldırır */
+    height: 1px; /* Çizgi yüksekliği */
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%); /* Gradyan arka plan */
+    margin: 0; /* Varsayılan marjinleri kaldırır (isteğe bağlı) */
+    width: 131px;
+}
+
+
+

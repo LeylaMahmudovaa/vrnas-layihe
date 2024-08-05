@@ -1,0 +1,80 @@
+.container {
+    width: 80%;
+    margin: auto;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.brandName img {
+    width: 101px;
+    height: 30px;
+    top: 41px;
+    left: 120px;
+    gap: 4px;
+
+}
+
+
+.navItems {
+    width: 50%;
+    height: 28px;
+    top: 42px;
+    left: 462px;
+    gap: 64px;
+    display: flex; 
+}
+
+
+.navItems li {
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    width: 20%;
+    position: relative;
+}
+
+
+
+
+.container a {
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.navItems ul {
+    position: absolute;
+    width: max-content;
+    margin: 1vh 0;
+    height: 0;
+    overflow: hidden;
+    width: 200%;
+}
+
+.navItems ul li {
+    margin: 1vh 0;
+    width: max-content;
+}
+
+
+.active {
+    height: 20vh!important;
+
+}
+
+
+.navItems i {
+    margin: 0 1vh;
+    position: relative;
+    top: 0.3vh;
+}

@@ -1,0 +1,81 @@
+.container>div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 508px;
+}
+
+.container p {
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    padding: 6vh 0;
+    width: 80%;
+    text-align: center;
+
+}
+
+.container>hr {
+
+    width: 80%;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    border: none;
+    height: 1px;
+
+
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sosicalMedia {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sosicalMedia .SM_icons a {
+    margin-right: 2vh;
+}
+
+
+.navigation {
+    display: flex;
+    height: 60%;
+}
+
+.navigation ul {
+    margin: 0 4vh;
+}
+
+.navigation ul li {
+    width: max-content;
+    margin-bottom: 5vh;
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+
+.navigation ul li:first-child {
+    font-family: Chakra Petch;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+
+}

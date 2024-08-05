@@ -1,0 +1,13 @@
+.buttonGradient a {
+    padding: 15px 35px;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    display: flex;
+    font-family: Chakra Petch;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}

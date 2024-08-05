@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: 80%;
+    margin: auto;
+    padding: 10vh 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imageBox {
+    width: 50%;
+    position: relative;
+}
+
+
+.imageBox img:last-child {
+    opacity: 0.5;
+}
+
+.imageBox img:first-child {
+    z-index: 2 !important;
+}
+
+.imageBox img:first-child,
+.imageBox img:nth-child(2),
+.imageBox img:nth-child(3) {
+    position: absolute;
+    z-index: 1;
+}
+
+.imageBox img:nth-child(2) {
+    z-index: 2;
+    left: -50px;
+    bottom: -50px !important;
+}
+
+.imageBox img:first-child {
+    bottom: 0px;
+}
+
+.imageBox img:nth-child(3) {
+    left: -255px;
+    z-index: 1;
+    bottom: -120px;
+}
+
+.imageBox img:nth-child(2) {
+    bottom: 0;
+}
+
+
+.text p:first-child {
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    background: var(--Main-Colors-Linear, linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text h3 {
+    color: #FFF;
+    font-family: "Chakra Petch";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.24px;
+    width: 708px;
+}
+
+
+.text p:last-child {
+    color: #D1D1D1;
+    font-family: "Chakra Petch";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    width: 625px;
+}

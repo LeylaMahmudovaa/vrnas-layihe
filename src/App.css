@@ -1,0 +1,22 @@
+.App  {
+  background: rgba(0, 0, 0, 0.877);
+
+  }
+
+/* WebKit tabanlı tarayıcılar için */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2b2a2a; /* Kaydırma çubuğu rengi */
+  border-radius: 15px; /* Köşe yuvarlama */
+  border: 3px solid transparent; /* Çubuğun çevresinde kenar boşluğu */
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.76)
+}
+
